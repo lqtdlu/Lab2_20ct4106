@@ -2,7 +2,7 @@
 
 ## Mục tiêu
 
-Xây dựng ứng dụng quản lý danh sách mua sắm sử dụng Ionic Framework và Angular Standalone Components[cite: 1, 5, 15].
+Xây dựng ứng dụng quản lý danh sách mua sắm sử dụng Ionic Framework và Angular Standalone Components.
 
 ## Hướng dẫn cài đặt & Làm bài
 
@@ -13,7 +13,7 @@ Dự án này đã được khởi tạo sẵn (tương ứng với Bước 1 tr
     ```bash
     npm install
     ```
-3. Bắt đầu làm bài từ **Bước 2: Hiển thị danh sách** trong file hướng dẫn[cite: 31].
+3. Bắt đầu làm bài từ **Bước 2: Hiển thị danh sách** trong file hướng dẫn.
 4.  Để chạy thử ứng dụng:
     ```bash
     ionic serve
@@ -25,29 +25,29 @@ Hệ thống sẽ tự động chấm điểm khi bạn **Push** code lên GitHu
 
 ### 1. Cấu trúc & Standalone (2 điểm)
 
-* Giữ nguyên cấu trúc Standalone Component[cite: 5].
+* Giữ nguyên cấu trúc Standalone Component.
 * Import đúng các UI component trong `imports: []`.
 
 ### 2. Hiển thị & Nhập liệu (2 điểm)
 
-* Import `FormsModule`[cite: 39].
-* Sử dụng `*ngFor` để hiển thị danh sách[cite: 36].
-* Sử dụng `[(ngModel)]` cho ô nhập liệu[cite: 43].
+* Import `FormsModule`.
+* Sử dụng `*ngFor` để hiển thị danh sách.
+* Sử dụng `[(ngModel)]` cho ô nhập liệu.
 
 ### 3. Điều hướng (2 điểm)
 
-* Tạo trang giới thiệu (`ionic generate page items/about`)[cite: 46].
-* Nút "About" ở trang chủ dùng `routerLink` để chuyển trang[cite: 51].
+* Tạo trang giới thiệu (`ionic generate page items/about`).
+* Nút "About" ở trang chủ dùng `routerLink` để chuyển trang.
 
 ### 4. Logic Validation & Xóa (2 điểm)
 
-* **Validate:** Hiện thông báo (Alert) khi bấm Thêm mà ô nhập bị rỗng[cite: 58].
-* **Xóa:** Vuốt item sang trái (`ion-item-sliding`) để hiện nút xóa[cite: 63].
+* **Validate:** Hiện thông báo (Alert) khi bấm Thêm mà ô nhập bị rỗng.
+* **Xóa:** Vuốt item sang trái (`ion-item-sliding`) để hiện nút xóa.
 
 ### 5. Nâng cao OOP (2 điểm)
 
-* Nâng cấp mảng chuỗi thành mảng đối tượng (có thuộc tính `isBought`)[cite: 68, 70].
-* Dùng `ion-checkbox` để đánh dấu đã mua[cite: 71].
+* Nâng cấp mảng chuỗi thành mảng đối tượng (có thuộc tính `isBought`).
+* Dùng `ion-checkbox` để đánh dấu đã mua.
 
 ## Cách nộp bài
 
